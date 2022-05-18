@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header.cabecalho {
+    background: url(../Img_Menu/bg_mario.jpg);
+    background-attachment: fixed;
+    height: 250px;
+    
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    position: relative;
+    text-align: center;
+}
+
+nav#menu li {
+    display: inline-block;
+    
+}
+
+nav#menu li a {  
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    box-shadow: 0px 1px 1px black;
+}
+
+nav#menu  a:hover {
+    background-color: rgb(255, 140, 0);
+    color: white;
+}
